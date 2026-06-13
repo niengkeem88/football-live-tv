@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/continentCard"
+    android:layout_width="match_parent" android:layout_height="150dp"
+    android:layout_margin="8dp" android:background="@drawable/bg_card">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical" android:gravity="center">
+        <ImageView android:layout_width="48dp" android:layout_height="48dp"
+            android:src="@drawable/ic_globe"/>
+        <TextView android:id="@+id/continentName"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:textColor="@color/text_primary"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ImageView android:id="@+id/continentCheck"
+        android:layout_width="24dp" android:layout_height="24dp"
+        android:layout_gravity="top|end" android:layout_margin="10dp"
+        android:src="@drawable/ic_check" android:visibility="gone"/>
+</FrameLayout>

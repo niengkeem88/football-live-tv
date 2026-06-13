@@ -1,0 +1,13 @@
+<resources>
+    <color name="navy">#1B3A5B</color>
+    <color name="navy_dark">#13293F</color>
+    <color name="orange">#F5A623</color>
+    <color name="blue_top">#1E6FD9</color>
+    <color name="background">#F4F6F9</color>
+    <color name="card">#FFFFFF</color>
+    <color name="text_primary">#1B2733</color>
+    <color name="text_secondary">#8A97A6</color>
+    <color name="live_green">#1E9E5A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="select_blue">#4A90E2</color>
+</resources>
